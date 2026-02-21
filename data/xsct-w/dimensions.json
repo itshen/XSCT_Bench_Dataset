@@ -1,0 +1,23 @@
+{
+  "W-Animation": "CSS/JS 动画效果的各种测试用例",
+  "W-ChatInterface": "聊天/即时通讯界面的三个难度等级",
+  "W-Dashboard": "后台仪表盘/管理面板测试用例",
+  "W-Ecommerce": "电商页面的三个难度等级",
+  "W-Game-2048": "经典 2048 游戏的网页实现",
+  "W-Game-Breakout": "经典打砖块游戏的三个独立难度版本",
+  "W-Game-Chess": "国际象棋游戏的三个独立难度版本",
+  "W-Game-FlappyBird": "Flappy Bird 游戏的三个独立难度版本",
+  "W-Game-Memory": "记忆翻牌游戏的三个独立难度版本",
+  "W-Game-Minesweeper": "经典扫雷游戏的三个独立难度版本",
+  "W-Game-Platformer": "平台跳跃游戏的三个独立难度版本",
+  "W-Game-Pong": "经典 Pong 乒乓球游戏的三个独立难度版本",
+  "W-Game-Snake": "经典贪吃蛇游戏的三个独立难度版本",
+  "W-Game-SpaceInvaders": "经典太空侵略者游戏的三个独立难度版本",
+  "W-Game-Sudoku": "数独游戏的三个独立难度版本",
+  "W-Game-Tetris": "经典俄罗斯方块游戏的三个独立难度版本",
+  "W-Interactive": "交互式 UI 组件测试用例",
+  "W-LandingPage": "落地页设计与实现的三个难度等级",
+  "W-Responsive": "响应式设计和布局测试用例",
+  "W-Form": "表单设计与验证测试用例",
+  "W-Landing": "各类落地页设计测试用例"
+}
