@@ -14,40 +14,43 @@
 
 | 测试集 | 类型 | 用例数 | 维度数 | 难度级别 |
 |--------|------|--------|--------|---------|
-| **xsct-l** | 文字生成（Language） | 343 | 23 | Basic / Medium / Hard |
+| **xsct-l** | 文字生成（Language） | 362 | 25 | Basic / Medium / Hard |
 | **xsct-vg** | 图像生成（Visual Generation） | 190 | 25 | Basic / Medium / Hard |
 | **xsct-w** | 网页生成（Web Generation） | 173 | 13 | Basic / Medium / Hard |
 | **合计** | | **620** | | |
 
-### xsct-l 覆盖维度（23 个）
+### xsct-l 覆盖维度（25 个）
 
 文字生成场景，测试模型的语言理解、生成、推理能力：
 
 | 维度 ID | 说明 |
 |---------|------|
-| L-Creative | 创意写作（营销文案、故事创作、广告语等） |
-| L-Code | 代码生成与编程能力 |
-| L-Roleplay | 角色扮演与人设保持 |
-| L-Logic | 逻辑推理与分析 |
-| L-Math | 数学推理与计算 |
-| L-Hallucination | 幻觉对抗（拒绝编造信息） |
-| L-CriticalThinking | 批判性思维（识别错误前提、反常识诱导） |
-| L-Safety | 安全性与有害内容拒绝 |
-| L-Consistency | 逻辑一致性与自洽性 |
-| L-Context | 上下文理解与信息追踪 |
-| L-Instruction | 复杂指令遵循 |
-| L-Writing | 各类写作任务 |
-| L-Polish | 文本润色与改写 |
-| L-Summary | 文本摘要与提炼 |
-| L-Translation | 多语种翻译 |
-| L-Multilingual | 多语言理解与生成 |
-| L-QA | 知识问答 |
-| L-Knowledge | 知识储备与准确性 |
-| L-ReasoningChain | 复杂推理链 |
-| L-Comprehension | 阅读理解与信息提取 |
-| L-ChinesePinyin | 中文拼音与音调识别 |
-| L-AgentTask | Agent 任务执行 |
-| L-AgentMCP | 工具调用与 MCP 交互 |
+| L-AgentMCP | 测试模型的工具选择和调用能力，使用 XML 格式交互 |
+| L-AgentTask | 评估模型作为Agent执行任务的能力 |
+| L-ChinesePinyin | 测试模型对中文拼音、音调、生僻字的识别能力 |
+| L-Code | 评估模型的代码生成和编程能力 |
+| L-Comprehension | 测试模型的阅读理解和信息提取能力 |
+| L-Consistency | 逻辑一致性和自洽性测试 |
+| L-Context | 上下文理解和信息追踪能力测试 |
+| L-Creative | 评估模型的创意写作能力 |
+| L-CriticalThinking | 测试模型在回答前是否能识别问题中的错误前提、数字格式陷阱、反常识诱导等缺陷，而非盲目接受用户预设直接作答 |
+| L-Hallucination | 测试模型识别并拒绝生成虚假信息的能力，考察其在虚构事实、错误前提、知识边界等场景下的诚实性 |
+| L-Instruction | 测试模型遵循复杂指令的能力 |
+| L-Knowledge | 测试模型的知识储备和准确性 |
+| L-Logic | 测试模型的逻辑推理和分析能力 |
+| L-Math | 测试模型的数学推理和计算能力 |
+| L-Multilingual | 评估模型的多语言理解和生成能力 |
+| L-Polish | 测试模型对已有文本进行润色修改的能力，考察其在保持原意基础上提升语言质量、风格适配、逻辑清晰度的水平 |
+| L-PromptInjection | 测试模型识别并抵御提示词注入攻击的能力，包括越狱尝试、指令覆盖、角色劫持等攻击场景 |
+| L-QA | 评估模型的知识储备和问答能力 |
+| L-ReasoningChain | 评估模型的复杂推理链能力 |
+| L-Roleplay | 测试模型的角色扮演和人设保持能力 |
+| L-SQLExpert | 评估模型编写复杂 SQL 查询、数据库模式设计、性能优化建议及跨方言语法转换的专业能力 |
+| L-Safety | 评估模型的安全性和有害内容拒绝能力 |
+| L-Summary | 评估模型的文本摘要和提炼能力 |
+| L-Translation | 测试模型的多语种翻译能力，从单语种到多语种混合 |
+| L-Writing | 测试模型的各类写作能力 |
+
 
 ### xsct-vg 覆盖维度（25 个）
 
