@@ -15,7 +15,7 @@
 | 测试集 | 类型 | 用例数 | 维度数 | 难度级别 |
 |--------|------|--------|--------|---------|
 | **xsct-l** | 文字生成（Language） | 343 | 23 | Basic / Medium / Hard |
-| **xsct-vg** | 图像生成（Visual Generation） | 164 | 15 | Basic / Medium / Hard |
+| **xsct-vg** | 图像生成（Visual Generation） | 190 | 25 | Basic / Medium / Hard |
 | **xsct-w** | 网页生成（Web Generation） | 113 | 21 | Basic / Medium / Hard |
 | **合计** | | **620** | | |
 
@@ -49,27 +49,38 @@
 | L-AgentTask | Agent 任务执行 |
 | L-AgentMCP | 工具调用与 MCP 交互 |
 
-### xsct-vg 覆盖维度（15 个）
+### xsct-vg 覆盖维度（25 个）
 
 图像生成场景，测试模型对提示词的语义理解和图像生成质量：
 
 | 维度 ID | 说明 |
 |---------|------|
-| VG-Style | 特定艺术风格生成（历史画风、地域艺术传统、现代流派） |
-| VG-AttributeBinding | 将正确属性绑定到正确物体的能力 |
-| VG-ObjectGeneration | 生成特定物体的能力 |
-| VG-SpatialRelation | 空间关系的理解与生成 |
-| VG-TextureMaterial | 各种材质和纹理的生成 |
-| P-Human | 人物图像生成（面部、身体、姿态） |
-| P-Scene | 完整协调场景的创建 |
-| P-Action | 动作和运动状态的表现 |
-| P-Light | 光影效果和色彩处理 |
-| P-Count | 生成指定数量物体的能力 |
-| P-Creative | 创意表达和想象力 |
-| P-Perspective | 不同视角和透视的处理 |
-| P-Semantic | 复杂语义和抽象概念的理解 |
-| P-Style | 特定艺术风格图像的生成 |
-| P-Text | 图像中文字的渲染（准确性、清晰度、字体样式） |
+| P-Action | 评估模型表现动作和运动状态的能力 |
+| P-Count | 评估模型正确生成指定数量物体的能力 |
+| P-Creative | 评估模型的创意表达和想象力 |
+| P-Human | 评估模型生成人物图像的能力，包括面部、身体、姿态等 |
+| P-Light | 评估模型处理光影效果和色彩的能力 |
+| P-Perspective | 评估模型处理不同视角和透视的能力 |
+| P-PosterLayout | 评估模型生成具有清晰视觉层次和布局的海报的能力 |
+| P-Scene | 评估模型创建完整、协调场景的能力 |
+| P-Semantic | 评估模型理解复杂语义和抽象概念的能力 |
+| P-Style | 评估模型生成特定艺术风格图像的能力 |
+| P-Text | 评估模型在图像中渲染文字的能力，包括准确性、清晰度、字体样式等 |
+| VG-Action | 评估模型表现动作和运动状态的能力 |
+| VG-AttributeBinding | 测试模型将正确属性绑定到正确物体的能力 |
+| VG-Count | 评估模型正确生成指定数量物体的能力 |
+| VG-Creative | 评估模型的创意表达和想象力 |
+| VG-Human | 评估模型生成人物图像的能力，包括面部、身体、姿态等 |
+| VG-Light | 评估模型处理光影效果和色彩的能力 |
+| VG-ObjectGeneration | 测试模型生成特定物体的能力 |
+| VG-Perspective | 评估模型处理不同视角和透视的能力 |
+| VG-Scene | 评估模型创建完整、协调场景的能力 |
+| VG-Semantic | 评估模型理解复杂语义和抽象概念的能力 |
+| VG-SpatialRelation | 测试模型对空间关系的理解和生成能力 |
+| VG-Style | 评估模型生成特定艺术风格图像的能力，包括历史画风、地域艺术传统、现代美术流派等风格还原 |
+| VG-Text | 评估模型在图像中渲染文字的能力，包括准确性、清晰度、字体样式等 |
+| VG-TextureMaterial | 测试模型生成各种材质和纹理的能力 |
+
 
 ### xsct-w 覆盖维度（21 个）
 
