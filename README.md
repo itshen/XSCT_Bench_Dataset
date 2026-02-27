@@ -89,21 +89,21 @@
 
 网页生成场景，测试模型生成可运行 HTML/CSS/JS 的能力：
 
-| 维度 ID | 说明 |
-|---------|------|
-| W-Animation | CSS/JS 动画效果的各种测试用例 |
-| W-ChatInterface | 聊天/即时通讯界面的三个难度等级 |
-| W-Dashboard | 后台仪表盘/管理面板测试用例 |
-| W-Ecommerce | 电商页面的三个难度等级 |
-| W-Form | 表单设计与验证测试用例 |
-| W-Game | 各种游戏的网页实现 |
-| W-Interactive | 交互式 UI 组件测试用例 |
-| W-Landing | 各类落地页设计测试用例 |
-| W-LandingPage | 落地页设计与实现的三个难度等级 |
-| W-Responsive | 响应式设计和布局测试用例 |
-| W-RichTextEditor | 评估文本格式化、多媒体嵌入及文档编辑功能的实现能力与交互体验。 |
-| W-SVGAnimation | 评估 SVG 路径动画、形状变换及矢量图形交互设计的实现能力与视觉表现。 |
-| W-SinglePagePPT | AI 生成单页 PPT 的测试用例 |
+| 维度 ID | 中文名 | 说明 |
+|---------|--------|------|
+| W-Animation | 动画效果 | CSS/JS 动画效果的各种测试用例 |
+| W-ChatInterface | 聊天界面 | 聊天/即时通讯界面的三个难度等级 |
+| W-Dashboard | 仪表盘 | 后台仪表盘/管理面板测试用例 |
+| W-Ecommerce | 电商页面 | 电商页面的三个难度等级 |
+| W-Form | 表单设计 | 表单设计与验证测试用例 |
+| W-Game | 游戏开发 | 各种游戏的网页实现 |
+| W-Interactive | 交互组件 | 交互式 UI 组件测试用例 |
+| W-Landing | 落地页 | 各类落地页设计测试用例 |
+| W-LandingPage | 落地页设计 | 落地页设计与实现的三个难度等级 |
+| W-Responsive | 响应式布局 | 响应式设计和布局测试用例 |
+| W-RichTextEditor | 富文本编辑器 | 评估文本格式化、多媒体嵌入及文档编辑功能的实现能力与交互体验。 |
+| W-SVGAnimation | SVG 矢量动画 | 评估 SVG 路径动画、形状变换及矢量图形交互设计的实现能力与视觉表现。 |
+| W-SinglePagePPT | AI 生成单页 PPT | AI 生成单页 PPT 的测试用例 |
 
 
 ---
