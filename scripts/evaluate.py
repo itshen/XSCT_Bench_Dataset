@@ -296,8 +296,7 @@ def call_model(client: OpenAI, model: str, messages: list[dict]) -> str:
     resp = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=0.7,
-        max_tokens=4096,
+        temperature=0.7
     )
     return resp.choices[0].message.content or ""
 
@@ -321,7 +320,6 @@ def judge(judge_client: OpenAI, judge_model: str, eval_prompt: str) -> dict:
             {"role": "user", "content": eval_prompt},
         ],
         temperature=0.0,
-        max_tokens=2048,
         extra_body={"reasoning": {"enabled": False}},
     )
     return parse_judge_response(resp.choices[0].message.content or "")
